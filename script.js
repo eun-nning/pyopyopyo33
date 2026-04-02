@@ -18,9 +18,11 @@ function normalize(text) {
   return text.toLowerCase().replace(/\s+/g,"").replace(/[^a-z0-9가-힣ㄱ-ㅎ]/g,"");
 }
 
-// 데이터
+// 데이터 (🔥 id 추가 필수)
 const songs = [
-      {
+  {
+    id: 1,
+
     title: "내일이 오면",
     titleAlt: [],
 
@@ -35,6 +37,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/181331643?change_second=4934"
   },
   {
+    id: 2,
+
     title: "혼모노",
     titleAlt: ["Honmono"],
 
@@ -49,6 +53,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/181331643?change_second=5574"
   },
   {
+    id: 3,
+
     title: "OHAYO MY NIGHT",
     titleAlt: ["오하요 마이 나이트","오하요 마이 나잇트"],
 
@@ -63,6 +69,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/181331643?change_second=9643"
   },
   {
+    id: 4,
+
     title: "에피소드",
     titleAlt: ["episode"],
 
@@ -77,6 +85,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/181331643?change_second=11013"
   },
   {
+    id: 5,
+
     title: "나무",
     titleAlt: [],
 
@@ -91,6 +101,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/181565971?change_second=23002"
   },
   {
+    id: 6,
+
     title: "내일이 오면",
     titleAlt: [],
 
@@ -105,6 +117,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/181565971?change_second=26867"
   },
   {
+    id: 7,
+
     title: "쉬어",
     titleAlt: [],
 
@@ -119,6 +133,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/181565971?change_second=27312"
   },
   {
+    id: 8,
+
     title: "존시나",
     titleAlt: [],
 
@@ -133,6 +149,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/181565971?change_second=27925"
   },
   {
+    id: 9,
+
     title: "Supernova",
     titleAlt: ["슈퍼노바", "수퍼노바"],
 
@@ -147,6 +165,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/181785091?change_second=13688"
   },
   {
+    id: 10,
+
     title: "서랍",
     titleAlt: ["Drawer"],
 
@@ -161,6 +181,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/181785091?change_second=14074"
   },
   {
+    id: 11,
+
     title: "징글벨",
     titleAlt: ["캐롤","Jingle Bells"],
 
@@ -175,6 +197,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/181785091?change_second=14396"
   },
   {
+    id: 12,
+    
     title: "모찌송",
     titleAlt: [],
 
@@ -189,6 +213,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/181785091?change_second=14870"
   },
   {
+    id: 13,
+
     title: "애상",
     titleAlt: [],
 
@@ -203,6 +229,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/181785091?change_second=15172"
   },
   {
+    id: 14,
+    
     title: "Ditto",
     titleAlt: ["디토"],
 
@@ -217,6 +245,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/186705799?change_second=34435"
   },
   {
+    id: 15,
+    
     title: "Ditto",
     titleAlt: ["디토"],
 
@@ -231,6 +261,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=4753"
   },
   {
+    id: 16,
+    
     title: "홍연",
     titleAlt: [],
 
@@ -245,6 +277,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=5053"
   },
   {
+    id: 17,
+    
     title: "곡예사",
     titleAlt: [],
 
@@ -259,6 +293,8 @@ const songs = [
     link: "https://vod.sooplive.com/player/187023883?change_second=5463"
   },
   {
+    id: 18,
+    
     title: "one of them",
     titleAlt: ["원오브댐", "원오브뎀"],
 
@@ -273,6 +309,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=5702"
   },
   {
+    id: 19,
+
     title: "selfmade orange",
     titleAlt: ["셀메이드 오렌지", "셀프메이드 오렌지"],
 
@@ -287,6 +325,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=6102"
   },
   {
+    id: 20,
+    
     title: "수퍼비와",
     titleAlt: [],
 
@@ -301,6 +341,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=6593"
   },
   {
+    id: 21,
+
     title: "UNFORGIVEN",
     titleAlt: ["언포기븐","언폴기븐"],
 
@@ -315,6 +357,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=6995"
   },
   {
+    id: 22,
+    
     title: "OHAYO MY NIGHT",
     titleAlt: ["오하요 마이 나이트","오하요 마이 나잇트"],
 
@@ -329,6 +373,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=7250"
   },
   {
+    id: 23,
+    
     title: "Oscar",
     titleAlt: ["오스카","오스칼"],
 
@@ -343,6 +389,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=7537"
   },
   {
+    id: 24,
+    
     title: "원효대사",
     titleAlt: [],
 
@@ -357,6 +405,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=8015"
   },
   {
+    id: 25,
+    
     title: "둥지",
     titleAlt: [],
 
@@ -371,6 +421,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=8201"
   },
   {
+    id: 26,
+    
     title: "나무",
     titleAlt: [],
 
@@ -385,6 +437,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=8713"
   },
   {
+    id: 27,
+    
     title: "사랑하게 될 거야",
     titleAlt: [],
 
@@ -399,6 +453,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=8950"
   },
   {
+    id: 28,
+    
     title: "내일이 오면",
     titleAlt: [],
 
@@ -413,6 +469,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=9349"
   },
   {
+    id: 29,
+    
     title: "우주를 줄게",
     titleAlt: ["galaxy"],
 
@@ -427,6 +485,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=9663"
   },
   {
+    id: 30,
+    
     title: "좋다고 말해",
     titleAlt: [],
 
@@ -441,6 +501,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=9901"
   },
   {
+    id: 31,
+    
     title: "폰서트",
     titleAlt: ["Phonecert"],
 
@@ -455,6 +517,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=10106"
   },
   {
+    id: 32,
+    
     title: "눈,코,입",
     titleAlt: ["EYES,NOSE,LIPS"],
 
@@ -469,6 +533,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=10431"
   },
   {
+    id: 33,
+    
     title: "시차",
     titleAlt: ["We Are"],
 
@@ -483,6 +549,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=10698"
   },
   {
+    id: 34,
+
     title: "죽일 놈",
     titleAlt: ["Guilty"],
 
@@ -497,6 +565,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=10936"
   },
   {
+    id: 35,
+    
     title: "사건의 지평선",
     titleAlt: ["Event Horizon"],
 
@@ -511,6 +581,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=11169"
   },
   {
+    id: 36,
+    
     title: "오르트구름",
     titleAlt: ["오트르구름","Oort Cloud"],
 
@@ -525,6 +597,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=11478"
   },
   {
+    id: 37,
+    
     title: "거리에서",
     titleAlt: [],
 
@@ -539,6 +613,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=11609"
   },
   {
+    id: 38,
+
     title: "빡",
     titleAlt: [],
 
@@ -553,6 +629,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=12000"
   },
   {
+    id: 39,
+    
     title: "My Way",
     titleAlt: ["마이웨이"],
 
@@ -567,6 +645,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=26845"
   },
   {
+    id: 40,
+    
     title: "Chosen 1",
     titleAlt: [],
 
@@ -581,6 +661,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187023883?change_second=27382"
   },
   {
+    id: 41,
+    
     title: "첫사랑",
     titleAlt: [],
 
@@ -595,6 +677,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187796673?change_second=23357"
   },
   {
+    id: 42,
+    
     title: "밤하늘의 별을",
     titleAlt: ["밤하늘의 별을"],
 
@@ -609,6 +693,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187796673?change_second=23926"
   },
   {
+    id: 43,
+    
     title: "0+0",
     titleAlt: ["00"],
 
@@ -623,6 +709,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187796673?change_second=24226"
   },
   {
+    id: 44,
+    
     title: "사건의 지평선",
     titleAlt: ["Event Horizon"],
 
@@ -637,6 +725,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187796673?change_second=24572"
   },
   {
+    id: 45,
+    
     title: "Magnetic",
     titleAlt: ["마그네틱"],
 
@@ -651,6 +741,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187796673?change_second=25453"
   },
   {
+    id: 46,
+    
     title: "Stay",
     titleAlt: ["스테이","스태이"],
 
@@ -665,6 +757,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187796673?change_second=26338"
   },
   {
+    id: 47,
+    
     title: "밤편지",
     titleAlt: [],
 
@@ -679,6 +773,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187796673?change_second=26540"
   },
   {
+    id: 48,
+    
     title: "일과이분의일",
     titleAlt: [],
 
@@ -693,6 +789,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187796673?change_second=27015"
   },
   {
+    id: 49,
+    
     title: "붕붕",
     titleAlt: [],
 
@@ -707,6 +805,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187796673?change_second=27978"
   },
   {
+    id: 50,
+    
     title: "뿌리",
     titleAlt: [],
 
@@ -721,6 +821,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187796673?change_second=28295"
   },
   {
+    id: 51,
+    
     title: "IndiGO",
     titleAlt: ["인디고"],
 
@@ -735,6 +837,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/187796673?change_second=28700"
   },
   {
+    id: 52,
+    
     title: "첫사랑",
     titleAlt: [],
 
@@ -749,6 +853,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/189611109?change_second=9832"
   },
   {
+    id: 53,
+    
     title: "너를 생각해",
     titleAlt: [],
 
@@ -763,6 +869,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/189611109?change_second=10474"
   },
   {
+    id: 54,
+    
     title: "위하여",
     titleAlt: ["We higher"],
 
@@ -777,6 +885,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/189611109?change_second=11126"
   },
   {
+    id: 55,
+
     title: "혼모노",
     titleAlt: ["Honmono"],
 
@@ -791,6 +901,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/189611109?change_second=11891"
   },
   {
+    id: 56,
+    
     title: "수퍼비와",
     titleAlt: [],
 
@@ -805,6 +917,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/189611109?change_second=12221"
   },
   {
+    id: 57,
+
     title: "love wins all",
     titleAlt: ["러브 윈즈 올","러브윈즈올"],
 
@@ -819,6 +933,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/189611109?change_second=13247"
   },
   {
+    id: 58,
+
     title: "내 손을 잡아",
     titleAlt: [],
 
@@ -833,6 +949,7 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/189611109?change_second=13795"
   },
   {
+    id: 59,
     title: "180도",
     titleAlt: ["백팔십도"],
 
@@ -847,6 +964,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/189611109?change_second=14184"
   },
   {
+    id: 60,
+    
     title: "빌런",
     titleAlt: ["Villain"],
 
@@ -861,6 +980,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/189611109?change_second=14741"
   }, 
   {
+    id: 61,
+    
     title: "만찬가",
     titleAlt: [],
 
@@ -875,6 +996,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/189611109?change_second=15197"
   },
   {
+    id: 62,
+    
     title: "사건의 지평선",
     titleAlt: ["Event Horizon"],
 
@@ -889,6 +1012,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/189611109?change_second=15588"
   },
   {
+    id: 63,
+    
     title: "business boy",
     titleAlt: ["비즈니스 보이","비지니스 보이"],
 
@@ -903,6 +1028,8 @@ const songs = [
     link: "https://vod.sooplive.co.kr/player/189611109?change_second=16301"
   },
   {
+    id: 64,
+    
     title: "혼모노",
     titleAlt: ["Honmono"],
 
@@ -917,6 +1044,8 @@ const songs = [
     link: "https://vod.sooplive.com/player/191208411?change_second=16888"
   },
   {
+    id: 65,
+    
     title: "혼모노",
     titleAlt: ["Honmono"],
 
@@ -954,14 +1083,11 @@ function displaySongs(filter="") {
   }
 
   if(currentView==="favorites") {
-    filtered = filtered.filter(s =>
-      favorites.includes(`${s.title}_${s.date}_${s.mainArtist[0]}`)
-    );
+    filtered = filtered.filter(s => favorites.includes(s.id));
   }
 
   filtered.forEach(song=>{
-    const key = `${song.title}_${song.date}_${song.mainArtist[0]}`;
-    const isFav = favorites.includes(key);
+    const isFav = favorites.includes(song.id);
 
     const row = `
       <tr>
@@ -977,9 +1103,9 @@ function displaySongs(filter="") {
         <td>${song.tag}</td>
 
         <td>
-          <button onclick="toggleFavorite('${song.title}','${song.date}')">
+          <button onclick="toggleFavorite(${song.id})">
             <span class="fav ${isFav ? 'on' : ''}">
-             ${isFav ? "★" : "☆"}
+              ${isFav ? "★" : "☆"}
             </span>
           </button>
           <a href="${song.link}" target="_blank">보기</a>
@@ -1015,15 +1141,12 @@ function filterByTag(tag) {
   displaySongs(searchInput.value);
 }
 
-// ⭐ 즐겨찾기 (핵심 수정🔥)
-function toggleFavorite(title,date){
-  const song = songs.find(s => s.title === title && s.date === date);
-  const key = `${title}_${date}_${song.mainArtist[0]}`;
-
-  if(favorites.includes(key)){
-    favorites = favorites.filter(f=>f!==key);
+// ⭐ 즐겨찾기 (🔥 id 기반으로 변경)
+function toggleFavorite(id){
+  if(favorites.includes(id)){
+    favorites = favorites.filter(f=>f!==id);
   } else {
-    favorites.push(key);
+    favorites.push(id);
   }
 
   localStorage.setItem("favorites",JSON.stringify(favorites));
