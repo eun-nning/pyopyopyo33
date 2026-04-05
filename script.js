@@ -1238,6 +1238,20 @@ function displaySongs(filter="") {
     );
   });
 
+   // 🔥 정렬 상태 (기본: 최신순)
+  if(!window.currentSort) window.currentSort = "newest";
+
+  if(window.currentSort === "newest"){
+    filtered.sort((a,b)=>{
+      const dateDiff = new Date(b.date) - new Date(a.date);
+      if(dateDiff !== 0) return dateDiff;
+
+      return songs.indexOf(b) - songs.indexOf(a); // 같은 날짜 뒤에서부터
+    });
+  } else {
+    filtered.sort((a,b)=> new Date(a.date) - new Date(b.date));
+  }
+
   if(currentTag) {
     filtered = filtered.filter(s=>s.tag===currentTag);
   }
@@ -1286,18 +1300,12 @@ document.getElementById("searchInput").addEventListener("input", e=>{
 
 // 정렬
 function sortByNewest() {
-  songs.sort((a,b)=> new Date(b.date) - new Date(a.date));
+  window.currentSort = "newest";
   displaySongs(searchInput.value);
 }
 
-function sortByNewest() {
-  songs.sort((a,b)=>{
-    const dateDiff = new Date(b.date) - new Date(a.date);
-    if(dateDiff !== 0) return dateDiff;
-
-    // 🔥 같은 날짜면 "뒤에 있는 게 먼저 나오게"
-    return songs.indexOf(b) - songs.indexOf(a);
-  });
+function sortByOldest() {
+  window.currentSort = "oldest";
   displaySongs(searchInput.value);
 }
 
@@ -1338,4 +1346,5 @@ function updateTitle(){
 }
 
 // 실행
+window.currentSort = "newest";
 displaySongs();
