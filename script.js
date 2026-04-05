@@ -122,8 +122,8 @@ const songs = [
     title: "쉬어",
     titleAlt: [],
 
-    mainArtist: ["아넌딜라이트","unofficialboyy","BE'O"],
-    mainArtistAlt: ["Anandekight","언오피셜보이","비오"],
+    mainArtist: ["아넌딜라이트","unofficialboyy","BE'O","지구인","mudd the student"],
+    mainArtistAlt: ["Anandekight","언오피셜보이","비오","geegooin","머드 더 스튜던트"],
 
     featArtist: ["MINO"],
     featArtistAlt: ["송민호","미노","송미노"],
@@ -1058,6 +1058,166 @@ const songs = [
     date: "2026-03-29",
     tag: "노래조각",
     link: "https://vod.sooplive.com/player/191208411?change_second=38864"
+  },
+  {
+    id: 66,
+    
+    title: "사랑하게 될 거야",
+    titleAlt: [],
+
+    mainArtist: ["한로로"],
+    mainArtistAlt: ["HANRORO"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-04-05",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/191860461?change_second=4283"
+  },
+  {
+    id: 67,
+    
+    title: "0+0",
+    titleAlt: ["00"],
+
+    mainArtist: ["한로로"],
+    mainArtistAlt: [],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-04-05",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/191860461?change_second=4647"
+  },
+  {
+    id: 68,
+    
+    title: "뿌리",
+    titleAlt: [],
+
+    mainArtist: ["쿤디판다"],
+    mainArtistAlt: ["Khundi panda"],
+
+    featArtist: ["저스디스"],
+    featArtistAlt: ["justhis"],
+
+    date: "2026-04-05",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/191860461?change_second=4998"
+  },
+  {
+    id: 69,
+    
+    title: "나만,봄",
+    titleAlt: ["나만봄"],
+
+    mainArtist: ["볼빨간사춘기"],
+    mainArtistAlt: ["볼사","BOL4"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-04-05",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/191860461?change_second=5959"
+  },
+  {
+    id: 70,
+    
+    title: "첫사랑",
+    titleAlt: [],
+
+    mainArtist: ["백아"],
+    mainArtistAlt: [],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-04-05",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/191860461?change_second=6627"
+  },
+  {
+    id: 71,
+
+    title: "selfmade orange",
+    titleAlt: ["셀메이드 오렌지","셀프메이드 오렌지"],
+
+    mainArtist: ["창모"],
+    mainArtistAlt: [],
+
+    featArtist: ["SUPERBEE"],
+    featArtistAlt: ["수퍼비","슈퍼비"],
+
+    date: "2026-04-05",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/191860461?change_second=6960"
+  },
+  {
+    id: 72,
+
+    title: "띵",
+    titleAlt: [],
+
+    mainArtist: ["재키와이","Young B","오션검","한요한"],
+    mainArtistAlt: ["Jvcki Wai","영비","han yo han","Osshun Gum"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-04-05",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/191860461?change_second=7504"
+  },
+  {
+    id: 73,
+
+    title: "Bunny Girl",
+    titleAlt: ["바니걸"],
+
+    mainArtist: ["AKASAKI"],
+    mainArtistAlt: ["아카사키"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-04-05",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/191860461?change_second=8201"
+  },
+   {
+    id: 74,
+    
+    title: "입춘",
+    titleAlt: [],
+
+    mainArtist: ["한로로"],
+    mainArtistAlt: ["HANRORO"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-04-05",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/191860461?change_second=8950"
+  },
+  {
+    id: 75,
+
+    title: "쉬어",
+    titleAlt: [],
+
+    mainArtist: ["아넌딜라이트","unofficialboyy","BE'O","지구인","mudd the student"],
+    mainArtistAlt: ["Anandekight","언오피셜보이","비오","geegooin","머드 더 스튜던트"],
+
+    featArtist: ["MINO"],
+    featArtistAlt: ["송민호","미노","송미노"],
+
+    date: "2026-04-05",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/191860461?change_second=9378"
   },
 ];
 
