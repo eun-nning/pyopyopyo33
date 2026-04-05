@@ -1290,8 +1290,14 @@ function sortByNewest() {
   displaySongs(searchInput.value);
 }
 
-function sortByOldest() {
-  songs.sort((a,b)=> new Date(a.date) - new Date(b.date));
+function sortByNewest() {
+  songs.sort((a,b)=>{
+    const dateDiff = new Date(b.date) - new Date(a.date);
+    if(dateDiff !== 0) return dateDiff;
+
+    // 🔥 같은 날짜면 "뒤에 있는 게 먼저 나오게"
+    return songs.indexOf(b) - songs.indexOf(a);
+  });
   displaySongs(searchInput.value);
 }
 
