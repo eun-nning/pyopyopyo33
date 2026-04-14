@@ -1219,6 +1219,54 @@ const songs = [
     tag: "노래뱅",
     link: "https://vod.sooplive.com/player/191860461?change_second=9378"
   },
+  {
+    id: 76,
+    
+    title: "혼모노",
+    titleAlt: ["Honmono"],
+
+    mainArtist: ["키드밀리"],
+    mainArtistAlt: ["Kid milli"],
+
+    featArtist: ["블랙넛"],
+    featArtistAlt: ["Black Nut"],
+
+    date: "2026-04-10",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/192431093?change_second=6548"
+  },
+  {
+    id: 77,
+    
+    title: "???",
+    titleAlt: ["자작곡","제목미상"],
+
+    mainArtist: ["표표표3"],
+    mainArtistAlt: ["표표표3"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-04-10",
+    tag: "노래조각",
+    link: "https://vod.sooplive.com/player/192431093?change_second=14899"
+  },
+  {
+    id: 78,
+
+    title: "Bunny Girl",
+    titleAlt: ["바니걸"],
+
+    mainArtist: ["AKASAKI"],
+    mainArtistAlt: ["아카사키"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-04-12",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/192547137?change_second=9605"
+  },
 ];
 
 // 출력
