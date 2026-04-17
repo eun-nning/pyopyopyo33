@@ -1267,6 +1267,246 @@ const songs = [
     tag: "노래뱅",
     link: "https://vod.sooplive.com/player/192547137?change_second=9605"
   },
+  {
+    id: 79,
+
+    title: "way back home",
+    titleAlt: ["웨이 백 홈"],
+
+    mainArtist: ["숀"],
+    mainArtistAlt: ["shaun"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-04-16",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/193007221?change_second=3910"
+  },
+  {
+    id: 80,
+
+    title: "붉은 노을",
+    titleAlt: ["sunset glow"],
+
+    mainArtist: ["빅뱅"],
+    mainArtistAlt: ["BIGBANG"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-04-16",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/193007221?change_second=4419"
+  },
+  {
+    id: 81,
+
+    title: "봄여름가을겨울",
+    titleAlt: ["Still life"],
+
+    mainArtist: ["빅뱅"],
+    mainArtistAlt: ["BIGBANG"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-04-16",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/193007221?change_second=4811"
+  },
+  {
+    id: 82,
+
+    title: "Heartbreaker",
+    titleAlt: ["하트 브레이커","하트 브래이커","핱브레이커","핱브래이커"],
+
+    mainArtist: ["G-DRAGON"],
+    mainArtistAlt: ["GD","지디","지드레곤","쥐드레곤","지드래곤","쥐드래곤"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-04-16",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/193007221?change_second=5110"
+  },
+  {
+    id: 83,
+
+    title: "Counting Stars",
+    titleAlt: ["카운팅 스타"],
+
+    mainArtist: ["BE'O"],
+    mainArtistAlt: ["비오","beo"],
+
+    featArtist: ["빈지노"],
+    featArtistAlt: ["Beenzino"],
+
+    date: "2026-04-16",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/193007221?change_second=5594"
+  },
+  {
+    id: 84,
+
+    title: "가라사대",
+    titleAlt: ["GOTTASADAE"],
+
+    mainArtist: ["비와이"],
+    mainArtistAlt: ["BewhY"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-04-16",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/193007221?change_second=5896"
+  },
+  {
+    id: 85,
+
+    title: "아저씨",
+    titleAlt: [],
+
+    mainArtist: ["릴러말즈","크루셜스타","QM","김재욱","NSW yoon","다민이"],
+    mainArtistAlt: ["Leellamarz","CRUCiAL StAR","큐엠","큐앰","nsw 윤","DAMINI","다미니"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-04-16",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/193007221?change_second=6304"
+  },
+  {
+    id: 86,
+
+    title: "VVS",
+    titleAlt: ["비비에스","븨븨에스","브이브이에스"],
+
+    mainArtist: ["미란이","먼치맨","쿤디판다","머쉬베놈"],
+    mainArtistAlt: ["MIRANI","미라니","KHUNDI PANDA","MUSHVENOM"],
+
+    featArtist: ["저스디스"],
+    featArtistAlt: ["JUSTHIS"],
+
+    date: "2026-04-16",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/193007221?change_second=6741"
+  },
+  {
+    id: 87,
+    
+    title: "혼모노",
+    titleAlt: ["Honmono"],
+
+    mainArtist: ["키드밀리"],
+    mainArtistAlt: ["Kid milli"],
+
+    featArtist: ["블랙넛"],
+    featArtistAlt: ["Black Nut"],
+
+    date: "2026-04-16",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/193007221?change_second=7138"
+  },
+  {
+    id: 88,
+    
+    title: "Super Shy",
+    titleAlt: ["슈퍼샤이"],
+
+    mainArtist: ["뉴진스"],
+    mainArtistAlt: ["newjeans"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-04-16",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/193007221?change_second=8882"
+  },
+  {
+    id: 89,
+
+    title: "Bunny Girl",
+    titleAlt: ["바니걸"],
+
+    mainArtist: ["AKASAKI"],
+    mainArtistAlt: ["아카사키"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-04-16",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/193007221?change_second=9329"
+  },
+  {
+    id: 90,
+
+    title: "yours",
+    titleAlt: ["유어스","유얼스","유얼즈","유어즈"],
+
+    mainArtist: ["데이먼스 이어"],
+    mainArtistAlt: ["Damons year"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-04-16",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/193007221?change_second=11445"
+  },
+  {
+    id: 90,
+
+    title: "주저하는 연인들을 위해",
+    titleAlt: [],
+
+    mainArtist: ["잔나비"],
+    mainArtistAlt: ["JANNABI"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-04-16",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/193007221?change_second=11853"
+  },
+  {
+    id: 91,
+    
+    title: "나무",
+    titleAlt: [],
+
+    mainArtist: ["카더가든"],
+    mainArtistAlt: ["car the garden","칼든강도"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-04-16",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/193007221?change_second=12944"
+  },
+  {
+    id: 92,
+    
+    title: "결혼",
+    titleAlt: ["marriage"],
+
+    mainArtist: ["문문"],
+    mainArtistAlt: ["MoonMoon"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-04-16",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/193007221?change_second=13480"
+  },
 ];
 
 // 출력
