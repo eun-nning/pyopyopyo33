@@ -1162,7 +1162,7 @@ const songs = [
     titleAlt: [],
 
     mainArtist: ["재키와이","Young B","오션검","한요한"],
-    mainArtistAlt: ["Jvcki Wai","영비","han yo han","Osshun Gum"],
+    mainArtistAlt: ["Jvcki Wai","영비","han yo han","Osshun Gum","영비"],
 
     featArtist: [],
     featArtistAlt: [],
@@ -1506,6 +1506,166 @@ const songs = [
     date: "2026-04-16",
     tag: "노래뱅",
     link: "https://vod.sooplive.com/player/193007221?change_second=13480"
+  },
+  {
+    id: 93,
+    
+    title: "범퍼카",
+    titleAlt: ["Bumper Car"],
+
+    mainArtist: ["한요한"],
+    mainArtistAlt: ["han yo han"],
+
+    featArtist: ["NO:EL","Young B"],
+    featArtistAlt: ["노엘","장용준","영비"],
+
+    date: "2026-04-21",
+    tag: "노래조각",
+    link: "https://vod.sooplive.com/player/193442593?change_second=16734"
+  },
+  {
+    id: 94,
+    
+    title: "수퍼비와",
+    titleAlt: [],
+
+    mainArtist: ["SUPERBEE"],
+    mainArtistAlt: ["수퍼비","슈퍼비"],
+
+    featArtist: ["비와이"],
+    featArtistAlt: ["BewhY"],
+
+    date: "2026-04-26",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/193962517?change_second=9862"
+  },
+  {
+    id: 95,
+    
+    title: "어땠을까",
+    titleAlt: [],
+
+    mainArtist: ["PSY"],
+    mainArtistAlt: ["싸이",],
+
+    featArtist: ["박정현"],
+    featArtistAlt: [],
+
+    date: "2026-04-26",
+    tag: "노래조각",
+    link: "https://vod.sooplive.com/player/193962517?change_second=10569"
+  },
+  {
+    id: 96,
+
+    title: "존시나",
+    titleAlt: [],
+
+    mainArtist: ["염따"],
+    mainArtistAlt: [],
+
+    featArtist: ["Northfacegawd","저스디스","래원"],
+    featArtistAlt: ["노스페이스갓","justhis","Layone"],
+
+    date: "2026-04-26",
+    tag: "노래조각",
+    link: "https://vod.sooplive.com/player/193962517?change_second=11057"
+  },
+  {
+    id: 97,
+    
+    title: "IndiGO",
+    titleAlt: ["인디고"],
+
+    mainArtist: ["저스디스","키드밀리","양홍원","NO:EL"],
+    mainArtistAlt: ["justhis","Kid Milli","장용준","Young B"],
+
+    featArtist: ["저스디스"],
+    featArtistAlt: ["justhis"],
+
+    date: "2026-04-26",
+    tag: "노래조각",
+    link: "https://vod.sooplive.com/player/193962517?change_second=12513"
+  },
+  {
+    id: 98,
+    
+    title: "0+0",
+    titleAlt: ["00"],
+
+    mainArtist: ["한로로"],
+    mainArtistAlt: [],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-04-26",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/193962517?change_second=12862"
+  },
+  {
+    id: 99,
+    
+    title: "우리의 밤을 외워요",
+    titleAlt: [],
+
+    mainArtist: ["카더가든"],
+    mainArtistAlt: ["car the garden","칼든강도"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-04-26",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/193962517?change_second=13354"
+  },
+  {
+    id: 100,
+    
+    title: "Drop it",
+    titleAlt: ["드랍 잇","드롭 잇","드로빗","비라빗"],
+
+    mainArtist: ["블라세"],
+    mainArtistAlt: ["Blase","블라새"],
+
+    featArtist: ["이영지"],
+    featArtistAlt: [],
+
+    date: "2026-04-26",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/193962517?change_second=13800"
+  },
+  {
+    id: 101,
+    
+    title: "IndiGO",
+    titleAlt: ["인디고"],
+
+    mainArtist: ["저스디스","키드밀리","양홍원","NO:EL"],
+    mainArtistAlt: ["justhis","Kid Milli","장용준","Young B"],
+
+    featArtist: ["저스디스"],
+    featArtistAlt: ["justhis"],
+
+    date: "2026-04-26",
+    tag: "노래조각",
+    link: "https://vod.sooplive.com/player/193962517?change_second=17669"
+  },
+  {
+    id: 102,
+    
+    title: "위하여",
+    titleAlt: ["We higher"],
+
+    mainArtist: ["블라세","노윤하","polodared","칠린호미","플리키뱅"],
+    mainArtistAlt: ["폴로다레드","blase","chillin Homie","Fleeky Bang"],
+
+    featArtist: ["릴보이"],
+    featArtistAlt: ["lilboi"],
+
+    date: "2026-04-26",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/193962517?change_second=26829"
   },
 ];
 
