@@ -1667,6 +1667,134 @@ const songs = [
     tag: "노래뱅",
     link: "https://vod.sooplive.com/player/193962517?change_second=26829"
   },
+  {
+    id: 103,
+    
+    title: "입춘",
+    titleAlt: [],
+
+    mainArtist: ["한로로"],
+    mainArtistAlt: [],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-05-02",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/194489573?change_second=9369"
+  },
+  {
+    id: 104,
+    
+    title: "기다린만큼, 더",
+    titleAlt: ["기다린만큼 더"],
+
+    mainArtist: ["검정치마"],
+    mainArtistAlt: ['the black skirts'],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-05-02",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/194489573?change_second=9891"
+  },
+  {
+    id: 105,
+    
+    title: "NOT CUTE ANYMORE",
+    titleAlt: ["낫 큐트 애니모어","낫 큐트 애니모얼"],
+
+    mainArtist: ["ILLIT"],
+    mainArtistAlt: ['아일릿'],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-05-02",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/194489573?change_second=10522"
+  },
+  {
+    id: 106,
+    
+    title: "리무진",
+    titleAlt: [],
+
+    mainArtist: ["BE'O"],
+    mainArtistAlt: ["비오","BEO"],
+
+    featArtist: ["MINO"],
+    featArtistAlt: ["송민호","미노","송미노"],
+
+    date: "2026-05-02",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/194489573?change_second=10968"
+  },
+  {
+    id: 107,
+    
+    title: "TICK TOCK",
+    titleAlt: ["틱톡"],
+
+    mainArtist: ["김하온","Nosun","Rafsandou","Marv","정준혁"],
+    mainArtistAlt: ["노선","라프산두","마브","HAON","하온"],
+
+    featArtist: ["ZICO"],
+    featArtistAlt: ["지코"],
+
+    date: "2026-05-02",
+    tag: "노래조각",
+    link: "https://vod.sooplive.com/player/194489573?change_second=11828"
+  },
+  {
+    id: 108,
+    
+    title: "꼴통",
+    titleAlt: [],
+
+    mainArtist: ["김하온"],
+    mainArtistAlt: ["하온"],
+
+    featArtist: ["창모"],
+    featArtistAlt: ["CHANGMO"],
+
+    date: "2026-05-02",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/194489573?change_second=12129"
+  },
+  {
+    id: 109,
+    
+    title: "일과 이분의 일",
+    titleAlt: ["1과 2분의 1"],
+
+    mainArtist: ["Chuu"],
+    mainArtistAlt: ["츄"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-05-02",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/194489573?change_second=12777"
+  },
+  {
+    id: 110,
+    
+    title: "0+0",
+    titleAlt: ["00"],
+
+    mainArtist: ["한로로"],
+    mainArtistAlt: ["HANRORO"],
+
+    featArtist: [],
+    featArtistAlt: [],
+
+    date: "2026-05-02",
+    tag: "노래뱅",
+    link: "https://vod.sooplive.com/player/194489573?change_second=13664"
+  },
 ];
 
 // 출력
@@ -1679,10 +1807,19 @@ function displaySongs(filter="") {
 
     return (
       normalize(song.title).includes(search) ||
+
       song.titleAlt?.some(t=>normalize(t).includes(search)) ||
+
       song.mainArtist.some(a=>normalize(a).includes(search)) ||
+      song.mainArtistAlt?.some(a=>normalize(a).includes(search)) ||
+
       song.featArtist?.some(a=>normalize(a).includes(search)) ||
-      getChosung(song.title).includes(search)
+      song.featArtistAlt?.some(a=>normalize(a).includes(search)) ||
+
+      getChosung(song.title).includes(search) ||
+
+      song.mainArtist.some(a=>getChosung(a).includes(search)) ||
+      song.featArtist?.some(a=>getChosung(a).includes(search))
     );
   });
 
